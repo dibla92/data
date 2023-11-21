@@ -1,0 +1,74 @@
+$screen-mobileS: 320;
+$screen-mobileM: 375;
+$screen-mobileL: 425;
+$screen-tablet: 768;
+$screen-tabletL: 950;
+$screen-laptop: 1024;
+$screen-laptopL: 1025;
+$screen-desktop: 1280;
+$screen-desktopM: 1400;
+
+// ===========================================================
+// Mixins
+// ===========================================================
+
+@mixin mobileS {
+  @media (min-width: #{$screen-mobileS+'px'}) {
+    @content;
+  }
+}
+
+@mixin mobileM {
+  @media (max-width: #{$screen-mobileM+'px'}) {
+    @content;
+  }
+}
+
+@mixin mobileL {
+  @media (max-width: #{$screen-mobileL+'px'}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$screen-tablet+'px'}) {
+    @content;
+  }
+}
+
+@mixin tabletL {
+  @media (max-width: #{$screen-tabletL+'px'}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (max-width: #{$screen-laptop+'px'}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{$screen-desktop+'px'}) {
+    @content;
+  }
+}
+
+@mixin desktopM {
+  @media (max-width: #{$screen-desktopM+'px'}) {
+    @content;
+  }
+}
+
+// Custom devices Min
+@mixin minScreen($screen) {
+  @media (min-width: $screen+'px') {
+    @content;
+  }
+}
+// Custom devices Max
+@mixin maxScreen($screen) {
+  @media (max-width: $screen+'px') {
+    @content;
+  }
+}

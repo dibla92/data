@@ -1,0 +1,29 @@
+.typeface {
+  &__span {
+    color: inherit;
+    font-family: $font-family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    width: auto;
+
+    &__ellipsis {
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+
+  &__div {
+    color: inherit;
+    font-family: $font-family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+
+    &__ellipsis {
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}

@@ -1,0 +1,366 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?j1qjaa');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?j1qjaa#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?j1qjaa') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?j1qjaa') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?j1qjaa##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gateway{
+  &:before {
+    content: $icon-gateway;
+  }
+}
+.icon-variable_value{
+  &:before {
+    content: $icon-variable_value;
+  }
+}
+.icon-thing_data{
+  &:before {
+    content: $icon-thing_data;
+  }
+}
+.icon-warning-filled{
+  &:before {
+    content: $icon-warning-filled;
+  }
+}
+
+.icon-warning-outlined{
+  &:before {
+    content: $icon-warning-outlined;
+  }
+}
+.icon-General-_-bolt-electricity{
+  &:before {
+    content: $icon-General-_-bolt-electricity;
+    color: #5738ff;
+  }
+}
+
+.icon-filter{
+  &:before {
+    content: $icon-filter;
+  }
+}
+
+.icon-ic-enelstyle-copy{
+  &:before {
+    content: $icon-ic-enelstyle-copy;
+  }
+}
+
+.icon-Information{
+  &:before {
+    content: $icon-Information;
+  }
+}
+
+.icon-General-_-Saving_Money {
+  &:before {
+    content:$icon-General-_-Saving_Money;
+    color: #5738ff;
+  }
+}
+
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left;     
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right;     
+  }
+}
+.icon-cluster-empty-image {
+  &:before {
+    content: $icon-cluster-empty-image;     
+    color: #b2b2b2;
+  }
+}
+.icon-down {
+  &:before {
+    content: $icon-down;     
+    color: #461e7d;
+  }
+}
+.icon-calendar {
+  &:before {
+    content: $icon-calendar;     
+    color: #461e7d;
+  }
+}
+.icon-stroke-5 {
+  &:before {
+    content: $icon-stroke-5;     
+    color: #461e7d;
+  }
+}
+.icon-group-4 {
+  &:before {
+    content: $icon-group-4;     
+    color: #461e7d;
+  }
+}
+.icon-clock {
+  &:before {
+    content: $icon-clock;     
+    color: #461e7d;
+  }
+}
+.icon-logo_enelx {
+  &:before {
+    content: $icon-logo_enelx;     
+    color: #fff;
+  }
+}
+.icon-economics-icon-1 {
+  &:before {
+    content: $icon-economics-icon-1;     
+    color: #461e7d;
+  }
+}
+.icon-menu-icon {
+  &:before {
+    content: $icon-menu-icon;     
+    color: #fff;
+  }
+}
+.icon-edit-1 {
+  &:before {
+    content: $icon-edit-1;     
+    color: #461e7d;
+  }
+}
+.icon-trash {
+  &:before {
+    content: $icon-trash;     
+    color: #ec092f;
+  }
+}
+.icon-chart {
+  &:before {
+    content: $icon-chart;     
+    color: #fff;
+  }
+}
+.icon-settings-2 {
+  &:before {
+    content: $icon-settings-2;     
+    color: #fff;
+  }
+}
+.icon-air-conditioning-2 {
+  &:before {
+    content: $icon-air-conditioning-2;     
+    color: #461e7d;
+  }
+}
+.icon-air-conditioning-1 {
+  &:before {
+    content: $icon-air-conditioning-1;     
+    color: #fff;
+  }
+}
+.icon-location {
+  &:before {
+    content: $icon-location;     
+    color: #707070;
+  }
+}
+.icon-user {
+  &:before {
+    content: $icon-user;     
+    color: #707070;
+  }
+}
+.icon-edit1 {
+  &:before {
+    content: $icon-edit1;     
+    color: #461e7d;
+  }
+}
+.icon-procurement-icon {
+  &:before {
+    content: $icon-procurement-icon;     
+    color: #461e7d;
+  }
+}
+.icon-sustainability-icon {
+  &:before {
+    content: $icon-sustainability-icon;     
+    color: #461e7d;
+  }
+}
+.icon-usage-icon {
+  &:before {
+    content: $icon-usage-icon;     
+    color: #461e7d;
+  }
+}
+.icon-report-icon {
+  &:before {
+    content: $icon-report-icon;     
+    color: #461e7d;
+  }
+}
+.icon-area {
+  &:before {
+    content: $icon-area;     
+    color: #461e7d;
+  }
+}
+.icon-close-5 {
+  &:before {
+    content: $icon-close-5;     
+    color: #929292;
+  }
+}
+.icon-search-5 {
+  &:before {
+    content: $icon-search-5;     
+    color: #929292;
+  }
+}
+.icon-industry-5 {
+  &:before {
+    content: $icon-industry-5;     
+    color: #461e7d;
+  }
+}
+.icon-arrow-2 {
+  &:before {
+    content: $icon-arrow-2; 
+  }
+}
+.icon-back {
+  &:before {
+    content: $icon-back;     
+    color: #461e7d;
+  }
+}
+.icon-check {
+  &:before {
+    content: $icon-check;     
+    color: #461e7d;
+  }
+}
+.icon-filters {
+  &:before {
+    content: $icon-filters;     
+    color: #ff006e;
+  }
+}
+.icon-query_stats {
+  &:before {
+    content: $icon-query_stats;
+    color: #461e7d;
+  }
+}
+.icon-forward {
+  &:before {
+    content: $icon-forward;     
+    color: #461e7d;
+  }
+}
+.icon-group-10 {
+  &:before {
+    content: $icon-group-10;     
+  }
+}
+.icon-icon-1 {
+  &:before {
+    content: $icon-icon-1;     
+    color: #461e7d;
+  }
+}
+.icon-icon {
+  &:before {
+    content: $icon-icon;     
+  }
+}
+.icon-invalid-name {
+  &:before {
+    content: $icon-invalid-name;     
+    color: #461e7d;
+  }
+}
+.icon-update {
+  &:before {
+    content: $icon-update;     
+    color: #fff;
+  }
+}
+.icon-visualizer {
+  &:before {
+    content: $icon-visualizer;     
+    color: #717171;
+  }
+}
+.icon-calendar1 {
+  &:before {
+    content: $icon-calendar1;     
+    color: #461e7d;
+  }
+}
+.icon-star-empty {
+  &:before {
+    content: $icon-star-empty; 
+  }
+}
+.icon-star-full {
+  &:before {
+    content: $icon-star-full; 
+  }
+}
+.icon-icons-general-hamburger-menu {
+  &:before {
+    content: $icon-icons-general-hamburger-menu;     
+    color: #fff;
+  }
+}
+.icon-my-app {
+  &:before {
+    content: $icon-my-app;     
+    color: #fff;
+  }
+}
+.icon-logo_white {
+  &:before {
+    content: $icon-logo_white;     
+    color: #fff;
+  }
+}

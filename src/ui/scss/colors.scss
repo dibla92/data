@@ -1,0 +1,115 @@
+/*
+ * general
+ */
+
+$font-family-sans-serif: 'RoobertENEL', sans-serif;
+$font-family-primary: $font-family-sans-serif;
+
+/*
+  * colors
+  */
+
+$base-color: #ffffff;
+$inverse-color: #f5f4fb;
+$light-blue: #5738ff;
+
+/*primary*/
+$base-color: #ffffff;
+$inverse-color: #f5f4fb;
+$background: #f4f4f6;
+$lightGrey: #f6f6f6;
+$backgroundPurple: #f5f4fb;
+$grey: #d4d4d4;
+$darkGrey: #b8b8b8;
+$textGrey: #717171;
+$textDarkGrey: #333333;
+$violetPurple: #5738ff;
+$purple: #461e7d;
+$purpleAlpha20: #d0c9de;
+$meteorite: #461e7d;
+$cornflower: #8e79ff;
+$darkNavyBlue: #000103;
+
+$lightPurple: rgba(128, 110, 203, 0.1);
+$lighter-purple: rgba(70, 30, 125, 0.2);
+$purple-opacity-8: rgba(70, 30, 125, 0.8);
+
+$grey-opacity-5: rgba(147, 147, 147, 0.5);
+
+$black: #000000;
+
+$tertiary: #ff016d;
+$tertiaryAlpha20: rgba(255, 0, 110, 0.2);
+/*status*/
+$pink: #fc4b88;
+$yellow: #fecc32;
+$green: #59bc5f;
+$pinkish-red: #ec092f;
+$warning: #f7b500;
+$running: #fa6620;
+
+/*graph*/
+$textGrey: #717171;
+$purple: #461e7d;
+$fucsia: #bd10e0;
+$lightPurple: #9013fe;
+$lightBlue: #0099ff;
+$blue: #0070ef;
+$lemonGreen: #a9f100;
+$azure: #2cd9c5;
+$azureLight: #60f1c8;
+$yellow: #ffe701;
+$orange: #ff6c40;
+$darkPink: #f33c4d;
+$green: #00cf12;
+$graph-palette-alpha-50: #cccccc;
+$darkerGrey: #414141;
+
+/*notifications*/
+$lightGreen: #e0f0e2;
+$green: #59bc5f;
+$beige: #fff8e0;
+$yellow: #fecc32;
+$lightPink: #ffe3ed;
+$pink: #fc4b88;
+$lightPurple: #e6e2f5;
+$purple: #461e7d;
+$notifications-palette-color7: #eccef2;
+
+/*custom*/
+$darkGrey: #4a4a4a;
+$lighterGrey: #929292;
+$lightGrey: #dddddd;
+$offWhite: #cfcfcf;
+$tiffany: #3dd1a0;
+$purpleShade: #f2f0f9;
+$lightPurpleRGBA: rgba(128, 110, 203, 0.05);
+$purpleBadgeEle: #e8cdff;
+$grayish: #d2d2d2;
+$grey-secondary: #bab9b9;
+$lighter-grey: #9c9c9c;
+$lighter-grey-opacity5: rgba(156, 156, 156, 0.5);
+$white-custom: #f2f1fa;
+$light-white: #ece8f2;
+$color-primary-main-alpha05: #f5f3f8;
+$color-primary-main: $purple;
+$box-shadow-color: rgba(156, 156, 156, 0.5);
+
+/*
+  * zIndex
+  */
+
+$body: 4000;
+$headerFooter: 5000;
+$modal: 1000;
+$loader: 9000;
+$absoluteUp: 1000;
+$headerWrapper: 5001;
+$navBar: 20;
+$closeModal: 5;
+$foot: 2;
+$box: 1;
+
+/*
+  * table
+  */

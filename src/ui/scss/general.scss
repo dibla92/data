@@ -1,0 +1,26 @@
+
+/*
+::-webkit-scrollbar {
+  display: none;
+}
+body *,
+html * {
+  scrollbar-color: $color-primary-border-light transparent !important;
+  scrollbar-width: thin !important;
+}
+
+*::selection {
+  background-color: $color-primary-main-alpha2;
+}
+
+body {
+  overflow: auto;
+  height: 100%;
+}
+
+html {
+  overflow: auto;
+
+  height: 100%;
+}
+*/
