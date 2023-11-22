@@ -17,7 +17,7 @@ function MySite() {
       <HeaderContainer>
         <Logo>
           <Text type="h1">
-            Studio Alca Dati
+            Studio Data
           </Text>
         </Logo>
         <ContainerMenu>

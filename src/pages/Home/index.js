@@ -2,7 +2,7 @@ import React from "react";
 import { HomeContainer, Body, Rect, ContainerImg, ServicesBox, Card, CardGroup, Ul, Description } from "./styles";
 import { useState } from "react";
 import Image from "./people-office.jpeg";
-import Text from "../../ui/typography/text";
+// import Text from "../../ui/typography/text";
 
 function Home() {
   const [hover, setHover] = useState(true);
@@ -32,7 +32,7 @@ function Home() {
           <div>
             {hover && (
               <>
-                <div>Studio commercialista di Genova</div>
+                <div>Studio commercialista di Domodossola</div>
                 <ServicesBox hover={hover}>
                   {hover && <div>I nostri servizi</div>}
                 </ServicesBox>
