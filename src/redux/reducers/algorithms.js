@@ -1,6 +1,7 @@
 import produce from 'immer'
 
 const initialState = {
+  algorithms: [],
 }
 
 const appReducer = (state = initialState, action) =>
@@ -9,7 +10,6 @@ const appReducer = (state = initialState, action) =>
       default:
         return state
     }
-    return draft
   })
 
 export default appReducer
