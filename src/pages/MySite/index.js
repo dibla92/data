@@ -50,7 +50,7 @@ function MySite() {
       </MySiteContainer>
       <FooterContainer>
         <Text type="body">
-          Alca dati Srl
+          xxx Srl
         </Text>
         <ContainerMenu>
           <ItemMenuSmall>
